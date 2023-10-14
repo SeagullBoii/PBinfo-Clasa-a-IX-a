@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -61,7 +60,7 @@ int a, b, c, d, e, suma, minim;
 int main(int argc, char const *argv[])
 {
 
-    cin >> a >> b >> c >> d >> e;
+    std::cin >> a >> b >> c >> d >> e;
     suma = a + b + c + d + e;
 
     minim = a;
@@ -101,7 +100,7 @@ int main(int argc, char const *argv[])
         minim = e;
     suma -= minim;
 
-    cout << suma;
+    std::cout << suma;
 
     return 0;
 }

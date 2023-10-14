@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -9,6 +8,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    cout << "Sarbatori fericite!";
+    std::cout << "Sarbatori fericite!";
     return 0;
 }

@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -15,12 +14,12 @@ int x, y, suma, ultimaCifra;
 
 int main(int argc, char const *argv[])
 {
-    cin >> x >> y;
+    std::cin >> x >> y;
 
     suma = x + y;
     ultimaCifra = suma % 10;
 
-    cout << ultimaCifra;
+    std::cout << ultimaCifra;
 
     return 0;
 }

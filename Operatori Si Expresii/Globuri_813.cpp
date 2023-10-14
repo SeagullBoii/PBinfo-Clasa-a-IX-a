@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -15,13 +14,13 @@ using namespace std;
 int a, r, v, g;
 int main(int argc, char const *argv[])
 {
-    cin >> a;
+    std::cin >> a;
 
     r = 2 * a;
     v = r - 3;
     g = a + r + v;
 
-    cout << g;
+    std::cout << g;
 
     return 0;
 }

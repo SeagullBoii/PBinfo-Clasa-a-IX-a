@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -14,12 +13,12 @@ int F, B, n, paginiF, paginiB;
 
 int main(int argc, char const *argv[])
 {
-    cin >> F >> B >> n;
+    std::cin >> F >> B >> n;
 
     paginiF = 3 * F * n;
     paginiB = 2 * B * n;
 
-    cout << paginiF + paginiB;
+    std::cout << paginiF + paginiB;
 
     return 0;
 }

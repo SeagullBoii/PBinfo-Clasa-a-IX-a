@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -18,12 +17,12 @@ int a, b, x;
 
 int main(int argc, char const *argv[])
 {
-    cin >> a >> b >> x;
+    std::cin >> a >> b >> x;
 
     if (x >= a && x <= b)
-        cout << "DA";
+        std::cout << "DA";
     else
-        cout << "NU";
+        std::cout << "NU";
 
     return 0;
 }

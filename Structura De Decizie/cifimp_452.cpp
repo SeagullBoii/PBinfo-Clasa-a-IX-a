@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -28,7 +27,7 @@ int a, c1, c2, c3, cifreImpare;
 
 int main(int argc, char const *argv[])
 {
-    cin >> a;
+    std::cin >> a;
 
     c1 = a / 100;
     c2 = a / 10 % 10;
@@ -41,7 +40,7 @@ int main(int argc, char const *argv[])
     if (c3 % 2 == 1)
         cifreImpare++;
 
-    cout << cifreImpare;
+    std::cout << cifreImpare;
 
     return 0;
 }

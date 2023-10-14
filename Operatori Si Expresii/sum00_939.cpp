@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /*
     Pseudocod:
@@ -13,7 +12,7 @@ int a, b;
 
 int main(int argc, char const *argv[])
 {
-    cin >> a >> b;
-    cout << a + b;
+    std::cin >> a >> b;
+    std::cout << a + b;
     return 0;
 }
